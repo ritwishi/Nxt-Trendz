@@ -1,0 +1,85 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+.order-summary-container {
+  align-self: flex-end;
+}
+
+.order-total {
+  color: grey;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.total-sum {
+  color: #000000;
+  font-size: 22px;
+}
+
+.total-quantity {
+  color: grey;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.order-now-button {
+  width: 100%;
+  background-color: blue;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0;
+}
+
+.my-cart-remove-all-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.remove-all-button {
+  border-width: 0;
+  background-color: transparent;
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 17px;
+  cursor: pointer;
+}
