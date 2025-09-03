@@ -1,25 +1,63 @@
 🛒 NxtTrendz – Online Shopping App (React JS)
-Description: Developed a fully functional e-commerce application with secure authentication, dynamic product listings, filtering, and cart management using React.js, REST APIs, and Context API.
 
-User credentials
+Description:
+Developed a fully functional e-commerce web application featuring secure authentication, dynamic product listings, real-time filtering, and cart management using React.js, REST APIs, and Context API.
 
-   username: rahul
-   
-   password: rahul@2021
+🔑 Login Credentials
 
+Username: rahul
 
-Key Features:
+Password: rahul@2021
 
-🔐 Authentication & Route Protection: -Implemented secure login with JWT token authentication. -Protected routes for Products, Cart, and Product Details accessible only by authenticated users.
+🚀 Key Features
+🔐 Authentication & Route Protection
 
-📦 Products Listing Page:
+Implemented JWT token–based authentication for secure login.
 
--Fetched product data using GET API requests with query parameters for search, category, and rating filters. -Displayed loader during data fetch and appropriate views for empty, success, or failure responses. -Handled multiple filters simultaneously and provided a "Clear Filters" feature to reset filters.
+Protected routes for Products, Cart, and Product Details, accessible only to authenticated users.
 
-🔍 Search and Filter Functionality: Enabled real-time filtering using: -Product title (Search bar with Enter key trigger) -Category selection -Rating selection -Dynamically updated product list based on selected filters.
+📦 Products Listing Page
 
-📄 Product Details Page: -Fetched individual product details and similar products using API with JWT token and product ID. -Displayed product quantity controls with increment/decrement buttons and default value set to 1. -Navigated to login route if accessed by unauthenticated users.
+Integrated GET API requests with query parameters for search, category, and rating filters.
 
-🛒 Cart Functionality using Context API: -Added product items to cart with quantity management (increase, decrease, remove). -Prevented duplicate items and updated quantity instead. -Real-time total cost and cart summary calculation. Features include: -Remove single item -Remove all items -Display empty cart view when applicable
+Handled multiple states: Loader, Success, Empty, and Failure views.
 
-🌐 Tech Stack Used: -React JS, React Router, Context API, REST API, JWT Authentication, CSS
+Supported multi-filter combinations with a Clear Filters option.
+
+🔍 Search & Filter Functionality
+
+Real-time product filtering via:
+
+Search bar (trigger on Enter key).
+
+Category selection.
+
+Rating selection.
+
+Dynamically updated product list based on selected filters.
+
+📄 Product Details Page
+
+Fetched product details & similar products via API (with JWT token + Product ID).
+
+Added quantity management (increment/decrement, default = 1).
+
+Redirected unauthenticated users to the Login Page.
+
+🛒 Cart Functionality (Context API)
+
+Add to Cart with duplicate prevention (quantity updated instead).
+
+Quantity management: increase, decrease, remove item.
+
+Remove All option to clear cart instantly.
+
+Real-time cart summary & total cost calculation.
+
+Displayed Empty Cart view when applicable.
+
+🌐 Tech Stack
+
+Frontend: React JS, React Router, Context API, CSS
+
+Backend APIs: REST API with JWT Authentication
