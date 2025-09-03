@@ -58,6 +58,6 @@ Developed a fully functional e-commerce web application featuring secure authent
 
 🌐 Tech Stack
 
-Frontend: React JS, React Router, Context API, CSS
-
-Backend APIs: REST API with JWT Authentication
+    Frontend: React JS, React Router, Context API, CSS
+    
+    Backend APIs: REST API with JWT Authentication
