@@ -1,6 +1,11 @@
 🛒 NxtTrendz – Online Shopping App (React JS)
 Description: Developed a fully functional e-commerce application with secure authentication, dynamic product listings, filtering, and cart management using React.js, REST APIs, and Context API.
 
+User credentials
+   username: rahul
+   password: rahul@2021
+
+
 Key Features:
 
 🔐 Authentication & Route Protection: -Implemented secure login with JWT token authentication. -Protected routes for Products, Cart, and Product Details accessible only by authenticated users.
