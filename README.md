@@ -2,7 +2,9 @@
 Description: Developed a fully functional e-commerce application with secure authentication, dynamic product listings, filtering, and cart management using React.js, REST APIs, and Context API.
 
 User credentials
+
    username: rahul
+   
    password: rahul@2021
 
 
